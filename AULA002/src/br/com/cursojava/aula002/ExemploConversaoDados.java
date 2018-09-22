@@ -1,0 +1,19 @@
+package br.com.cursojava.aula002;
+
+import java.util.Scanner;
+
+public class ExemploConversaoDados {
+
+	public static void main(String[] args) {
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Informe sua idade");
+//		String textoIdade = teclado.nextLine();
+//		int idade = Integer.parseInt(textoIdade); //Converte string para int
+		int idade = Integer.parseInt(teclado.nextLine()); //Converte string para int
+		System.out.println("Sua idade daqui a 20 anos será...");
+		System.out.println(idade + 20);
+
+		teclado.close();
+	}
+
+}
