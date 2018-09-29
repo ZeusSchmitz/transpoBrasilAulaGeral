@@ -8,8 +8,14 @@ public class RepetNom {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Digite uma palavra");
 		String palavra = teclado.nextLine();
-		
-
+		String repete = "";
+		int index = palavra.trim().replaceAll(" ", "").length();
+		while (index > 0) {
+			repete += palavra + " ";
+			System.out.println(repete);
+			index--;
+		}
+		teclado.close();
 	}
 
 }
