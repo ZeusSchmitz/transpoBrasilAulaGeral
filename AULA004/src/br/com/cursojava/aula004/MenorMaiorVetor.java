@@ -19,8 +19,8 @@ public class MenorMaiorVetor {
 			maior = Math.max(maior, d);
 		}
 		System.out.println("");
-		System.out.printf("A maior nota é: %.2f \n", menor);
-		System.out.printf("A maior nota é: %.2f \n", maior);
+		System.out.printf("A menor nota Ã©: %.2f \n", menor);
+		System.out.printf("A maior nota Ã©: %.2f \n", maior);
 		teclado.close();
 	}
 
