@@ -18,7 +18,7 @@ public class MeidaMaior {
 		System.out.println("Média é: " + media/10);
 		for (double d : notas) {
 			if (d >= (media/10)) {
-				System.out.println("Nota maior qou igual a média: " + d);
+				System.out.println("Nota maior ou igual a média: " + d);
 			}
 		}
 		teclado.close();
